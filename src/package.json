@@ -1,0 +1,32 @@
+{
+  "name": "custom-developer-products",
+  "version": "1.0.2",
+  "description": "Providing a backend for donation centers, product shops and the like. This gives you the ability to have developer products of any price added on request.",
+  "main": "index.js",
+  "engines": {
+    "node": "10.x"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "noblox.js": "^4.7.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/General_Scripter/Custom-Developer-Products.git"
+  },
+  "keywords": [
+    "Roblox",
+    "developer",
+    "product"
+  ],
+  "author": "General_Scripter",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/General_Scripter/Custom-Developer-Products/issues"
+  },
+  "homepage": "https://github.com/General_Scripter/Custom-Developer-Products#readme"
+}

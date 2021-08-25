@@ -1,8 +1,8 @@
 --[[
-  // AUTHOR: UsernameMissingOrNil
+  // AUTHOR: General_Scripter
   \\ CREATION DATE: 30/01/20 17:21
-  // MODIFIED BY: UsernameMissingOrNil
-  \\ MODIFIED DATE: 30/01/20 17:22
+  // MODIFIED BY: General_Scripter
+  \\ MODIFIED DATE: 25/08/21 17:55
 --]]
 
 local serverKey = ""
@@ -11,7 +11,7 @@ local productNameFormat = "%s Robux Donation"
 local httpServ = game:GetService("HttpService")
 local universeId = game.GameId
 
-function formatNumber(number)
+local function formatNumber(number)
 	local i, j, minus, int, fraction = string.find(tostring(number), "([-]?)(%d+)([.]?%d*)")
 	int = string.gsub(string.reverse(int), "(%d%d%d)", "%1,")
 	

@@ -15,6 +15,8 @@ If you don't want to download the example place, you can go ahead and edit [this
 
 You will need to put a Roblox account cookie in the `.env` file (or in the `index.js` file, though I don't recommend this for security reasons). This project uses the [noblox.js package](https://github.com/suufi/noblox.js), so you will need to use an alternative acount to prevent yourself from being logged out. I recommend using a randomly generated key as the server key to prevent unauthorized access to your backend server; this goes in the `.env` file.
 
+As a result of the Roblox filtration system, some products may end up with filtered names. If two products both end up with the same name after filtering (even though the original names might have been unique), this will throw an exception and the product will not be created.
+
 ## Demo
 If you're feeling generous, or just want to check it out in action before you set it up for yourself, then head [over here](https://www.roblox.com/games/291509783/Donation-Center).
 

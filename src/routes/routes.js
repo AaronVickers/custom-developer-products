@@ -21,7 +21,7 @@ router.post("/requestProduct", async (req, res, next) => {
     console.warn(`Request rejected. Reason: ${validationResult}`)
 
     return res.status(403).json({
-        error: "You do not have permission to use this."
+      error: "You do not have permission to use this."
     })
   }
   

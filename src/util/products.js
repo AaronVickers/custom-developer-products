@@ -44,7 +44,7 @@ exports.createNewProduct = async (universeId, name, price, overrideCache = false
 
     return [true, newProductId]
   }).catch((err) => {
-    return [true, err.message]
+    return [false, err.message]
   })
 
   if (newProductCreated) {
